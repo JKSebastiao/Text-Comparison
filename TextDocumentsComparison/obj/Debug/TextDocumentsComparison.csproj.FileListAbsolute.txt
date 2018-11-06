@@ -1,0 +1,15 @@
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\bin\Debug\TextDocumentsComparison.exe.config
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\bin\Debug\TextDocumentsComparison.exe
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\bin\Debug\TextDocumentsComparison.pdb
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison.csprojAssemblyReference.cache
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\MainWindow.g.cs
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\App.g.cs
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison_MarkupCompile.cache
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison_MarkupCompile.lref
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\MainWindow.baml
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison.g.resources
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison.Properties.Resources.resources
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison.csproj.GenerateResource.cache
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison.csproj.CoreCompileInputs.cache
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison.exe
+C:\Users\RetailAdmin\Documents\mgr_semestr_II\IPiODB\P\TextDocumentsComparison\TextDocumentsComparison\obj\Debug\TextDocumentsComparison.pdb
