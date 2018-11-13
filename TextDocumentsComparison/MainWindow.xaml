@@ -7,24 +7,28 @@
         mc:Ignorable="d"
         Title="Text Documents Comparison" Height="540" Width="800">
     <Grid>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="509" Stroke="Black" VerticalAlignment="Top" Width="792"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="185*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="509" Stroke="Black" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2"/>
 
         <Label Content="Document 1:" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="81"/>
         <Label Content="Document 2:" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxDoc1" HorizontalAlignment="Left" Height="23" Margin="105,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="581"/>
-        <TextBox x:Name="textBoxDoc2" HorizontalAlignment="Left" Height="23" Margin="105,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="581"/>
-        <Button x:Name="browserButton1" Content="Browser" HorizontalAlignment="Left" Margin="691,33,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="browserButton1_Click"/>
-        <Button x:Name="browserButton2" Content="Browser" HorizontalAlignment="Left" Margin="691,67,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="1.56,0.609"/>
+        <TextBox x:Name="textBoxDoc1" HorizontalAlignment="Left" Height="23" Margin="105,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="581" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBoxDoc2" HorizontalAlignment="Left" Height="23" Margin="105,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="581" Grid.ColumnSpan="2"/>
+        <Button x:Name="browserButton1" Content="Browser" HorizontalAlignment="Left" Margin="454,33,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="browserButton1_Click" Grid.Column="1"/>
+        <Button x:Name="browserButton2" Content="Browser" HorizontalAlignment="Left" Margin="454,67,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="1.56,0.609" Grid.Column="1" Click="browserButton2_Click"/>
         <Label Content="Algorithms:" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.155,0.385"/>
-        <CheckBox x:Name="jaroWinklerCheckBox" Content="Jaro Winkler" HorizontalAlignment="Left" Margin="105,106,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="levenshteinCheckBox" Content="Levenshtein" HorizontalAlignment="Left" Margin="203,109,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="normalizedLevenshteinCheckBox" Content="Normalized Levenshtein" HorizontalAlignment="Left" Margin="303,109,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="nGramCheckBox" Content="NGram" HorizontalAlignment="Left" Margin="465,109,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="jaroWinklerCheckBox" Content="Jaro Winkler" HorizontalAlignment="Left" Margin="105,106,0,0" VerticalAlignment="Top" Checked="jaroWinklerCheckBox_Checked"/>
+        <CheckBox x:Name="levenshteinCheckBox" Content="Levenshtein" HorizontalAlignment="Left" Margin="203,109,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="normalizedLevenshteinCheckBox" Content="Normalized Levenshtein" HorizontalAlignment="Left" Margin="66,109,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <CheckBox x:Name="nGramCheckBox" Content="NGram" HorizontalAlignment="Left" Margin="228,109,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <Label Content="Comparison:" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="resultTexBox" HorizontalAlignment="Left" Height="275" Margin="19,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="747" UndoLimit="100000"/>
-        <Button Content="Compare" HorizontalAlignment="Left" Margin="691,466,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="596,466,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.287,0.4"/>
-        <ProgressBar HorizontalAlignment="Left" Height="20" Margin="19,466,0,0" VerticalAlignment="Top" Width="540"/>
+        <TextBox x:Name="resultTexBox" HorizontalAlignment="Left" Height="275" Margin="19,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="747" UndoLimit="100000" Grid.ColumnSpan="2"/>
+        <Button Content="Compare" HorizontalAlignment="Left" Margin="454,466,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="359,466,0,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.287,0.4" Grid.Column="1"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="20" Margin="19,466,0,0" VerticalAlignment="Top" Width="540" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
